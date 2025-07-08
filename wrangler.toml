@@ -1,0 +1,6 @@
+name = "webhook-worker"
+main = "src/worker.ts"
+compatibility_date = "2024-05-01"
+
+[vars]
+# Define SUPABASE_URL and SUPABASE_KEY in production or via wrangler secrets
